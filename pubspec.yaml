@@ -1,0 +1,71 @@
+name: sportsticket
+description: "A new Flutter project."
+
+# Prevents the package from being accidentally published to pub.dev.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+  intl: ^0.18.0
+  url_launcher: ^6.0.10
+
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.8
+  fluentui_icons: ^1.0.0
+  flutter_launcher_icons: ^0.14.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # Lints to encourage good coding practices.
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Ensures that the Material Icons font is included with your application.
+  uses-material-design: true
+
+  # Add assets for your application.
+  assets:
+      - assets/logo.png
+      - assets/fam.jpeg
+      - assets/fam1.jpeg
+      - assets/fam2.jpeg
+      - assets/fam3.jpeg
+      - assets/FCB.jpeg
+      - assets/FOMO.jpeg
+      - assets/EKWE.jpeg
+      - assets/Dedza.jpeg
+      - assets/Bangwe.jpeg
+      - assets/CRECK.jpeg
+      - assets/silver.jpeg
+      - assets/Chitipa.jpeg
+
+flutter_icons:
+  android: true
+  ions: true
+  image_path: "assets/icons/logo.png"
+
+  # Uncomment the following lines to add custom fonts to your application.
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
